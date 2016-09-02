@@ -1,0 +1,218 @@
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 2;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+
+@import "modules/all";
+@import "partials/all";
+
+body {
+	background: $white;
+	font-family: 'Droid Serif', serif;
+	font-size: 100%;
+	line-height: $base-line-height;
+}
+
+.container {
+	width: 96%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+#header {
+	box-sizing: border-box;
+	font-size: 16px;
+	width: 96vw;
+	height: 96vh;
+	margin: 2vh auto;
+	background: $midnight;
+	color: $white;
+	display: table;
+	h1 {
+		line-height: 1;
+	}
+}
+
+a.btnheader {
+	border: 1px solid #FFF;
+	color: $yellow;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 30px;
+	padding: 10px 20px;
+}
+
+.valign {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.introfoto {
+	img {
+		max-width: 90%;
+	}
+}
+
+h1 {
+	font-size: 400%;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-top: 15px;
+}
+
+hr {
+	background: $yellow;
+	color: $yellow;
+	border: 0;
+	width: 30px;
+	height: 2px;
+	margin: 10px 0 40px;
+}
+.introtekst {
+	font-family: calibri;
+	color: $yellow;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+span {
+	background: $yellow;
+	padding: 3px;
+	color: #000;
+}
+
+section {
+	padding: 200px 0;
+	color: $midnight;
+	.introtekst {
+		font-weight: 700;
+	}
+}
+
+#skillset {
+
+}
+
+.subMenu {
+	font-family: arial;
+	padding: 20px 0;
+	border-top: 1px solid #bdc3c7;
+	border-bottom: 1px solid #bdc3c7;
+	background: $white;
+	font-size: 100%;
+	ul {
+		text-align: right;
+		li {
+			display: inline;
+			padding-right: 30px;
+		}
+	}
+	a {
+		color: $midnight;
+		text-decoration: none;
+	}
+}
+
+.fxd {
+	background: #FFFFFF;
+	width: 100%;
+}
+
+#work {
+	background: $midnight;
+	width: 96vw;
+	margin: auto;
+	color: $white;
+}
+.portfolio {
+	margin-top: 40px;
+}
+.portitem {
+	img {
+		width: 100%
+	}
+}
+
+.skills {
+	margin-top: 40px;
+	font-weight: 700;
+	.row {
+		margin-top: 20px;
+	}
+}
+
+.ceevee {
+	padding: 20px 0;
+	background: $yellow;
+}
+
+#contact {
+	background: $midnight;
+	color: $white;
+}
+
+
+
+
+
+
+.outer {
+	width: 100%;
+	height: 7px;
+	padding: 3px;
+	background: $midnight;
+}
+
+.inner {
+	height: 7px;
+	background: $yellow;
+}
+
+.ten {
+	width: 10%;
+}
+.twenty {
+	width: 20%;
+}
+.thirty {
+	width: 30%;
+}
+.fourty {
+	width: 40%;
+}
+.fifty {
+	width: 50%;
+}
+.sixty {
+	width: 60%;
+}
+.seventy {
+	width: 70%;
+}
+.eighty {
+	width: 80%;
+}
+.ninety {
+	width: 90%;
+}
+.hundred {
+	width: 100%;
+}
+
+.section2, .section3, .section4 {
+	position: relative;
+	top: -175px;
+}
