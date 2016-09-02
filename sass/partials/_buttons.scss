@@ -52,8 +52,13 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 10px 20px;
-  display: inline-block; 
+
   font-weight: 700;
   opacity: 1; 
 }
 
+@media only screen and (max-width: 767px) {
+  .cvbtn {
+    display: block;
+  }
+}

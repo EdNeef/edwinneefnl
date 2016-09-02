@@ -102,6 +102,12 @@ section {
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	section {
+		padding: 80px 0;
+	}
+}
+
 #skillset {
 
 }
@@ -145,6 +151,45 @@ section {
 		width: 100%
 	}
 }
+
+.work {
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	color: $yellow;
+	position: relative;
+}
+.work div {
+	position: absolute;
+	left: 0; top: 0;
+	height: 100%; width: 100%;
+	background: $midnight;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.2s linear;
+}
+.work p {
+	position: absolute;
+	left: 50%; 
+	top: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0; 
+	padding: 0;
+	a {
+		font-weight: 700;
+		padding: 0 0 0 10px;
+		color: $yellow;
+		&:first-child {
+			padding: 0 10px 0 0;
+			border-right: 1px solid $orange;
+		}
+	}
+}
+.work:hover div {
+	visibility: visible;
+	opacity: 0.9;
+} 
+
 
 .skills {
 	margin-top: 40px;
