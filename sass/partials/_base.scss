@@ -20,6 +20,7 @@ $header-font-weight: $bold;
 @import "modules/all";
 @import "partials/all";
 
+
 body {
 	background: $white;
 	font-family: 'Droid Serif', serif;
@@ -44,6 +45,13 @@ body {
 	display: table;
 	h1 {
 		line-height: 1;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#header {
+		padding: 80px 0;
+		min-height: 96vh;
 	}
 }
 
@@ -199,6 +207,17 @@ section {
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	.skills {
+		.col-3 {
+			margin-top: 20px;
+		}
+		.row {
+			margin: 0;
+		}
+	}
+}
+
 .ceevee {
 	padding: 20px 0;
 	background: $yellow;
@@ -208,11 +227,6 @@ section {
 	background: $midnight;
 	color: $white;
 }
-
-
-
-
-
 
 .outer {
 	width: 100%;
@@ -257,7 +271,18 @@ section {
 	width: 100%;
 }
 
-.section2, .section3, .section4 {
+.section2, .section3, .section4, .section5 {
 	position: relative;
 	top: -175px;
+	height: 1px;
+	background: red;
+}
+
+@media only screen and (max-width: 767px) {
+	.section2, .section3, .section4, .section5 {
+		top: -60px;
+	}
+	h1 {
+		font-size: 300%;
+	}
 }

@@ -11,9 +11,9 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 10px 20px;
-  float: left;
   font-weight: 700;
   opacity: 0.5; 
+  display: inline-block;
 }
 
 .turquoise:hover{
@@ -34,9 +34,9 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 10px 20px;
-  display: inline-block; 
   font-weight: 700;
   opacity: 1; 
+  display: inline-block;
 }
 
 .cvbtn:hover {
@@ -52,13 +52,12 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 10px 20px;
-
   font-weight: 700;
   opacity: 1; 
 }
 
 @media only screen and (max-width: 767px) {
-  .cvbtn {
+  .cvbtn, .turquoise {
     display: block;
   }
 }
