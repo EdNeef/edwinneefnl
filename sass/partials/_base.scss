@@ -91,7 +91,7 @@ hr {
 	margin: 10px 0 40px;
 }
 .introtekst {
-	font-family: calibri;
+	font-family: 'Open Sans', sans-serif;
 	color: $yellow;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -124,7 +124,7 @@ section {
 	box-sizing: border-box;
 	width: 96vw;
 	margin: auto;
-	font-family: arial;
+	font-family: Arial, sans-serif;
 	padding: 20px 0;
 	border: 1px solid $midtwee;
 	background: $white;
@@ -179,6 +179,9 @@ section {
 	width: 96vw;
 	margin: auto;
 	color: $white;
+	.introtekst {
+		font-weight: 400;
+	}
 }
 .portfolio {
 	margin-top: 40px;
@@ -255,6 +258,9 @@ section {
 #contact {
 	background: $midnight;
 	color: $white;
+	.introtekst {
+		font-weight: 400;
+	}
 }
 
 .outer {
