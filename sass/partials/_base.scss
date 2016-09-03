@@ -121,12 +121,15 @@ section {
 }
 
 .subMenu {
+	width: 96vw;
+	margin: auto;
 	font-family: arial;
 	padding: 20px 0;
-	border-top: 1px solid #bdc3c7;
-	border-bottom: 1px solid #bdc3c7;
+	border: 1px solid $midtwee;
 	background: $white;
 	font-size: 100%;
+	z-index: 1;
+	font-weight: 700;
 	ul {
 		text-align: right;
 		li {
@@ -135,14 +138,39 @@ section {
 		}
 	}
 	a {
-		color: $midnight;
+		color: $midtwee;
 		text-decoration: none;
+		&:hover {
+			color: $midnight;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.subMenu {
+		ul {
+			text-align: auto;
+			li {
+				width: 24%;
+				padding: 0;
+				text-align: center;
+				display: inline-block;
+			}
+
+		}
 	}
 }
 
 .fxd {
-	background: #FFFFFF;
+	background: $midtwee;
 	width: 100%;
+	border-bottom: 1px solid $midnight;
+	a {
+		color: $white;
+		&:hover {
+			color: $yellow;
+		}
+	}
 }
 
 #work {
@@ -275,7 +303,6 @@ section {
 	position: relative;
 	top: -175px;
 	height: 1px;
-	background: red;
 }
 
 @media only screen and (max-width: 767px) {

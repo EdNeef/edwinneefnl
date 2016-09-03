@@ -14,10 +14,14 @@
   font-weight: 700;
   opacity: 0.5; 
   display: inline-block;
+  transition: visibility 0s, opacity 0.2s linear;
 }
 
 .turquoise:hover{
-  opacity: 0.8; 
+  opacity: 1; 
+  border-bottom: $yellow 3px solid;
+  border-left: $yellow 1px solid;
+  border-right: $yellow 1px solid;
 }
 
 
@@ -37,6 +41,7 @@
   font-weight: 700;
   opacity: 1; 
   display: inline-block;
+  transition: visibility 0s, color 0.2s linear, background 0.2s linear;
 }
 
 .cvbtn:hover {
