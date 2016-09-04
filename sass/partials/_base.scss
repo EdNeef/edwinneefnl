@@ -122,11 +122,9 @@ section {
 
 .subMenu {
 	box-sizing: border-box;
-	width: 96vw;
 	margin: auto;
 	padding: 20px 0;
-	border: 1px solid $midtwee;
-	background: $white;
+	background: $yellow;
 	font-size: 100%;
 	z-index: 1;
 	font-weight: 400;
@@ -141,7 +139,7 @@ section {
 		color: $midtwee;
 		text-decoration: none;
 		&:hover {
-			color: $midnight;
+			color: $yellow;
 		}
 	}
 }
@@ -165,11 +163,9 @@ section {
 	background: $midtwee;
 	width: 100%;
 	border-bottom: 1px solid $midnight;
+	opacity: 0.9;
 	a {
 		color: $white;
-		&:hover {
-			color: $yellow;
-		}
 	}
 }
 
@@ -197,6 +193,12 @@ section {
 	text-align: center;
 	color: $yellow;
 	position: relative;
+	a {
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
 .work div {
 	position: absolute;
@@ -229,7 +231,6 @@ section {
 	opacity: 0.9;
 } 
 
-
 .skills {
 	margin-top: 40px;
 	font-weight: 700;
@@ -259,6 +260,15 @@ section {
 	color: $white;
 	.introtekst {
 		font-weight: 400;
+	}
+	span {
+		&:hover {
+			background: $midtwee;
+
+		}
+		&:hover a {
+			color: $yellow;
+		}
 	}
 }
 
@@ -318,4 +328,8 @@ section {
 	h1 {
 		font-size: 300%;
 	}
+}
+
+a {
+	text-decoration: none;
 }
