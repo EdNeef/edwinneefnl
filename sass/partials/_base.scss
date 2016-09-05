@@ -139,7 +139,7 @@ section {
 		color: $midtwee;
 		text-decoration: none;
 		&:hover {
-			color: $yellow;
+			color: $midnight;
 		}
 	}
 }
@@ -272,6 +272,7 @@ section {
 	}
 }
 
+
 .outer {
 	width: 100%;
 	height: 7px;
@@ -332,4 +333,9 @@ section {
 
 a {
 	text-decoration: none;
+}
+
+
+p.paraspacing {
+	margin-top: 30px;
 }

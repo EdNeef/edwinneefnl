@@ -201,7 +201,7 @@ section .introtekst {
 }
 /* line 141, ../sass/partials/_base.scss */
 .subMenu a:hover {
-  color: #FFC12D;
+  color: #43496E;
 }
 
 @media only screen and (max-width: 767px) {
@@ -352,7 +352,7 @@ section .introtekst {
   color: #FFC12D;
 }
 
-/* line 275, ../sass/partials/_base.scss */
+/* line 276, ../sass/partials/_base.scss */
 .outer {
   width: 100%;
   height: 7px;
@@ -360,63 +360,63 @@ section .introtekst {
   background: #43496E;
 }
 
-/* line 282, ../sass/partials/_base.scss */
+/* line 283, ../sass/partials/_base.scss */
 .inner {
   height: 7px;
   background: #FFC12D;
 }
 
-/* line 287, ../sass/partials/_base.scss */
+/* line 288, ../sass/partials/_base.scss */
 .ten {
   width: 10%;
 }
 
-/* line 290, ../sass/partials/_base.scss */
+/* line 291, ../sass/partials/_base.scss */
 .twenty {
   width: 20%;
 }
 
-/* line 293, ../sass/partials/_base.scss */
+/* line 294, ../sass/partials/_base.scss */
 .thirty {
   width: 30%;
 }
 
-/* line 296, ../sass/partials/_base.scss */
+/* line 297, ../sass/partials/_base.scss */
 .fourty {
   width: 40%;
 }
 
-/* line 299, ../sass/partials/_base.scss */
+/* line 300, ../sass/partials/_base.scss */
 .fifty {
   width: 50%;
 }
 
-/* line 302, ../sass/partials/_base.scss */
+/* line 303, ../sass/partials/_base.scss */
 .sixty {
   width: 60%;
 }
 
-/* line 305, ../sass/partials/_base.scss */
+/* line 306, ../sass/partials/_base.scss */
 .seventy {
   width: 70%;
 }
 
-/* line 308, ../sass/partials/_base.scss */
+/* line 309, ../sass/partials/_base.scss */
 .eighty {
   width: 80%;
 }
 
-/* line 311, ../sass/partials/_base.scss */
+/* line 312, ../sass/partials/_base.scss */
 .ninety {
   width: 90%;
 }
 
-/* line 314, ../sass/partials/_base.scss */
+/* line 315, ../sass/partials/_base.scss */
 .hundred {
   width: 100%;
 }
 
-/* line 318, ../sass/partials/_base.scss */
+/* line 319, ../sass/partials/_base.scss */
 .section2, .section3, .section4, .section5 {
   position: relative;
   top: -175px;
@@ -424,19 +424,24 @@ section .introtekst {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 325, ../sass/partials/_base.scss */
+  /* line 326, ../sass/partials/_base.scss */
   .section2, .section3, .section4, .section5 {
     top: -60px;
   }
 
-  /* line 328, ../sass/partials/_base.scss */
+  /* line 329, ../sass/partials/_base.scss */
   h1 {
     font-size: 300%;
   }
 }
-/* line 333, ../sass/partials/_base.scss */
+/* line 334, ../sass/partials/_base.scss */
 a {
   text-decoration: none;
+}
+
+/* line 339, ../sass/partials/_base.scss */
+p.paraspacing {
+  margin-top: 30px;
 }
 
 /* line 1, ../sass/partials/_buttons.scss */
