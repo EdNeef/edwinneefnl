@@ -114,6 +114,9 @@ section {
 	section {
 		padding: 80px 0;
 	}
+	.foto {
+		display: none;
+	}
 }
 
 #skillset {
@@ -139,7 +142,7 @@ section {
 		color: $midtwee;
 		text-decoration: none;
 		&:hover {
-			color: $midnight;
+			color: $white;
 		}
 	}
 }
@@ -166,6 +169,9 @@ section {
 	opacity: 0.9;
 	a {
 		color: $white;
+		&:hover {
+			color: $yellow;
+		}
 	}
 }
 

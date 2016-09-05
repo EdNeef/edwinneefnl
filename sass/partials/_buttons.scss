@@ -1,6 +1,6 @@
 .turquoise{
   margin-top: 40px;
-  font-family: calibri;
+  font-family: 'Open Sans', sans-serif;
   background: #FFF;
   border-bottom: #999 3px solid;
   border-left: #999 1px solid;
@@ -12,6 +12,7 @@
   letter-spacing: 3px;
   padding: 10px 20px;
   font-weight: 700;
+  font-size: 82.5%;
   opacity: 0.5; 
   display: inline-block;
   transition: visibility 0s, opacity 0.2s linear;
@@ -27,7 +28,7 @@
 
 .cvbtn {
   text-decoration: none;
-  font-family: calibri;
+font-family: 'Open Sans', sans-serif;
   background: $midnight;
   border-bottom: $orange 3px solid;
   border-left: $orange 1px solid;
@@ -39,6 +40,7 @@
   letter-spacing: 3px;
   padding: 10px 20px;
   font-weight: 700;
+  font-size: 82.5%;
   opacity: 1; 
   display: inline-block;
   transition: visibility 0s, color 0.2s linear, background 0.2s linear;
@@ -46,7 +48,7 @@
 
 .cvbtn:hover {
   text-decoration: none;
-  font-family: calibri;
+font-family: 'Open Sans', sans-serif;
   background: $white;
   border-bottom: $orange 3px solid;
   border-left: $orange 1px solid;

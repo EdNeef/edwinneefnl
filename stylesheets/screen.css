@@ -174,8 +174,13 @@ section .introtekst {
   section {
     padding: 80px 0;
   }
+
+  /* line 117, ../sass/partials/_base.scss */
+  .foto {
+    display: none;
+  }
 }
-/* line 123, ../sass/partials/_base.scss */
+/* line 126, ../sass/partials/_base.scss */
 .subMenu {
   box-sizing: border-box;
   margin: auto;
@@ -185,31 +190,31 @@ section .introtekst {
   z-index: 1;
   font-weight: 400;
 }
-/* line 131, ../sass/partials/_base.scss */
+/* line 134, ../sass/partials/_base.scss */
 .subMenu ul {
   text-align: right;
 }
-/* line 133, ../sass/partials/_base.scss */
+/* line 136, ../sass/partials/_base.scss */
 .subMenu ul li {
   display: inline;
   padding-right: 30px;
 }
-/* line 138, ../sass/partials/_base.scss */
+/* line 141, ../sass/partials/_base.scss */
 .subMenu a {
   color: #65589C;
   text-decoration: none;
 }
-/* line 141, ../sass/partials/_base.scss */
+/* line 144, ../sass/partials/_base.scss */
 .subMenu a:hover {
-  color: #43496E;
+  color: #F1FAFB;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 149, ../sass/partials/_base.scss */
+  /* line 152, ../sass/partials/_base.scss */
   .subMenu ul {
     text-align: auto;
   }
-  /* line 151, ../sass/partials/_base.scss */
+  /* line 154, ../sass/partials/_base.scss */
   .subMenu ul li {
     width: 24%;
     padding: 0;
@@ -217,41 +222,45 @@ section .introtekst {
     display: inline-block;
   }
 }
-/* line 162, ../sass/partials/_base.scss */
+/* line 165, ../sass/partials/_base.scss */
 .fxd {
   background: #65589C;
   width: 100%;
   border-bottom: 1px solid #43496E;
   opacity: 0.9;
 }
-/* line 167, ../sass/partials/_base.scss */
+/* line 170, ../sass/partials/_base.scss */
 .fxd a {
   color: #F1FAFB;
 }
-
 /* line 172, ../sass/partials/_base.scss */
+.fxd a:hover {
+  color: #FFC12D;
+}
+
+/* line 178, ../sass/partials/_base.scss */
 #work {
   background: #43496E;
   width: 96vw;
   margin: auto;
   color: #F1FAFB;
 }
-/* line 177, ../sass/partials/_base.scss */
+/* line 183, ../sass/partials/_base.scss */
 #work .introtekst {
   font-weight: 400;
 }
 
-/* line 181, ../sass/partials/_base.scss */
+/* line 187, ../sass/partials/_base.scss */
 .portfolio {
   margin-top: 40px;
 }
 
-/* line 185, ../sass/partials/_base.scss */
+/* line 191, ../sass/partials/_base.scss */
 .portitem img {
   width: 100%;
 }
 
-/* line 190, ../sass/partials/_base.scss */
+/* line 196, ../sass/partials/_base.scss */
 .work {
   display: inline-block;
   height: 100%;
@@ -259,16 +268,16 @@ section .introtekst {
   color: #FFC12D;
   position: relative;
 }
-/* line 196, ../sass/partials/_base.scss */
+/* line 202, ../sass/partials/_base.scss */
 .work a {
   text-decoration: underline;
 }
-/* line 198, ../sass/partials/_base.scss */
+/* line 204, ../sass/partials/_base.scss */
 .work a:hover {
   text-decoration: none;
 }
 
-/* line 203, ../sass/partials/_base.scss */
+/* line 209, ../sass/partials/_base.scss */
 .work div {
   position: absolute;
   left: 0;
@@ -281,7 +290,7 @@ section .introtekst {
   transition: visibility 0s, opacity 0.2s linear;
 }
 
-/* line 212, ../sass/partials/_base.scss */
+/* line 218, ../sass/partials/_base.scss */
 .work p {
   position: absolute;
   left: 50%;
@@ -290,69 +299,69 @@ section .introtekst {
   margin: 0;
   padding: 0;
 }
-/* line 219, ../sass/partials/_base.scss */
+/* line 225, ../sass/partials/_base.scss */
 .work p a {
   font-weight: 700;
   padding: 0 0 0 10px;
   color: #FFC12D;
 }
-/* line 223, ../sass/partials/_base.scss */
+/* line 229, ../sass/partials/_base.scss */
 .work p a:first-child {
   padding: 0 10px 0 0;
   border-right: 1px solid #f39c12;
 }
 
-/* line 229, ../sass/partials/_base.scss */
+/* line 235, ../sass/partials/_base.scss */
 .work:hover div {
   visibility: visible;
   opacity: 0.9;
 }
 
-/* line 234, ../sass/partials/_base.scss */
+/* line 240, ../sass/partials/_base.scss */
 .skills {
   margin-top: 40px;
   font-weight: 700;
 }
-/* line 237, ../sass/partials/_base.scss */
+/* line 243, ../sass/partials/_base.scss */
 .skills .row {
   margin-top: 20px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 244, ../sass/partials/_base.scss */
+  /* line 250, ../sass/partials/_base.scss */
   .skills .col-3 {
     margin-top: 20px;
   }
-  /* line 247, ../sass/partials/_base.scss */
+  /* line 253, ../sass/partials/_base.scss */
   .skills .row {
     margin: 0;
   }
 }
-/* line 253, ../sass/partials/_base.scss */
+/* line 259, ../sass/partials/_base.scss */
 .ceevee {
   padding: 20px 0;
   background: #FFC12D;
 }
 
-/* line 258, ../sass/partials/_base.scss */
+/* line 264, ../sass/partials/_base.scss */
 #contact {
   background: #43496E;
   color: #F1FAFB;
 }
-/* line 261, ../sass/partials/_base.scss */
+/* line 267, ../sass/partials/_base.scss */
 #contact .introtekst {
   font-weight: 400;
 }
-/* line 265, ../sass/partials/_base.scss */
+/* line 271, ../sass/partials/_base.scss */
 #contact span:hover {
   background: #65589C;
 }
-/* line 269, ../sass/partials/_base.scss */
+/* line 275, ../sass/partials/_base.scss */
 #contact span:hover a {
   color: #FFC12D;
 }
 
-/* line 276, ../sass/partials/_base.scss */
+/* line 282, ../sass/partials/_base.scss */
 .outer {
   width: 100%;
   height: 7px;
@@ -360,63 +369,63 @@ section .introtekst {
   background: #43496E;
 }
 
-/* line 283, ../sass/partials/_base.scss */
+/* line 289, ../sass/partials/_base.scss */
 .inner {
   height: 7px;
   background: #FFC12D;
 }
 
-/* line 288, ../sass/partials/_base.scss */
+/* line 294, ../sass/partials/_base.scss */
 .ten {
   width: 10%;
 }
 
-/* line 291, ../sass/partials/_base.scss */
+/* line 297, ../sass/partials/_base.scss */
 .twenty {
   width: 20%;
 }
 
-/* line 294, ../sass/partials/_base.scss */
+/* line 300, ../sass/partials/_base.scss */
 .thirty {
   width: 30%;
 }
 
-/* line 297, ../sass/partials/_base.scss */
+/* line 303, ../sass/partials/_base.scss */
 .fourty {
   width: 40%;
 }
 
-/* line 300, ../sass/partials/_base.scss */
+/* line 306, ../sass/partials/_base.scss */
 .fifty {
   width: 50%;
 }
 
-/* line 303, ../sass/partials/_base.scss */
+/* line 309, ../sass/partials/_base.scss */
 .sixty {
   width: 60%;
 }
 
-/* line 306, ../sass/partials/_base.scss */
+/* line 312, ../sass/partials/_base.scss */
 .seventy {
   width: 70%;
 }
 
-/* line 309, ../sass/partials/_base.scss */
+/* line 315, ../sass/partials/_base.scss */
 .eighty {
   width: 80%;
 }
 
-/* line 312, ../sass/partials/_base.scss */
+/* line 318, ../sass/partials/_base.scss */
 .ninety {
   width: 90%;
 }
 
-/* line 315, ../sass/partials/_base.scss */
+/* line 321, ../sass/partials/_base.scss */
 .hundred {
   width: 100%;
 }
 
-/* line 319, ../sass/partials/_base.scss */
+/* line 325, ../sass/partials/_base.scss */
 .section2, .section3, .section4, .section5 {
   position: relative;
   top: -175px;
@@ -424,22 +433,22 @@ section .introtekst {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 326, ../sass/partials/_base.scss */
+  /* line 332, ../sass/partials/_base.scss */
   .section2, .section3, .section4, .section5 {
     top: -60px;
   }
 
-  /* line 329, ../sass/partials/_base.scss */
+  /* line 335, ../sass/partials/_base.scss */
   h1 {
     font-size: 300%;
   }
 }
-/* line 334, ../sass/partials/_base.scss */
+/* line 340, ../sass/partials/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 339, ../sass/partials/_base.scss */
+/* line 345, ../sass/partials/_base.scss */
 p.paraspacing {
   margin-top: 30px;
 }
@@ -447,7 +456,7 @@ p.paraspacing {
 /* line 1, ../sass/partials/_buttons.scss */
 .turquoise {
   margin-top: 40px;
-  font-family: calibri;
+  font-family: 'Open Sans', sans-serif;
   background: #FFF;
   border-bottom: #999 3px solid;
   border-left: #999 1px solid;
@@ -459,12 +468,13 @@ p.paraspacing {
   letter-spacing: 3px;
   padding: 10px 20px;
   font-weight: 700;
+  font-size: 82.5%;
   opacity: 0.5;
   display: inline-block;
   transition: visibility 0s, opacity 0.2s linear;
 }
 
-/* line 20, ../sass/partials/_buttons.scss */
+/* line 21, ../sass/partials/_buttons.scss */
 .turquoise:hover {
   opacity: 1;
   border-bottom: #FFC12D 3px solid;
@@ -472,10 +482,10 @@ p.paraspacing {
   border-right: #FFC12D 1px solid;
 }
 
-/* line 28, ../sass/partials/_buttons.scss */
+/* line 29, ../sass/partials/_buttons.scss */
 .cvbtn {
   text-decoration: none;
-  font-family: calibri;
+  font-family: 'Open Sans', sans-serif;
   background: #43496E;
   border-bottom: #f39c12 3px solid;
   border-left: #f39c12 1px solid;
@@ -487,15 +497,16 @@ p.paraspacing {
   letter-spacing: 3px;
   padding: 10px 20px;
   font-weight: 700;
+  font-size: 82.5%;
   opacity: 1;
   display: inline-block;
   transition: visibility 0s, color 0.2s linear, background 0.2s linear;
 }
 
-/* line 47, ../sass/partials/_buttons.scss */
+/* line 49, ../sass/partials/_buttons.scss */
 .cvbtn:hover {
   text-decoration: none;
-  font-family: calibri;
+  font-family: 'Open Sans', sans-serif;
   background: #F1FAFB;
   border-bottom: #f39c12 3px solid;
   border-left: #f39c12 1px solid;
@@ -511,7 +522,7 @@ p.paraspacing {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 65, ../sass/partials/_buttons.scss */
+  /* line 67, ../sass/partials/_buttons.scss */
   .cvbtn, .turquoise {
     display: block;
   }
