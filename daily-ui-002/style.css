@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: #D3959B; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #D3959B , #BFE6BA); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #D3959B , #BFE6BA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Arvo', serif;
+}
+
+.container {
+	background: #eff0f8;
+	width: 90%;
+	max-width: 600px;
+	margin: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	content: "";
+	display: table;
+	clear: both;
+	margin-top: 200px;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+}
+
+.left, .right {
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+}
+
+.left {
+	float: left;
+}
+
+.left img {
+	margin: 10px 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.left ul {
+	margin: 30px 0 10px;
+	text-align: center;
+}
+
+.left ul li {
+	background: #d13447;
+	display: inline-block;
+	width: 9px; height: 9px;
+	padding: 1px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 3px;
+}
+
+.left ul li.active {
+	width: 11px; height: 11px;
+	position: relative;
+	top: 1px;
+	background: #1c3767;
+}
+
+.right {
+	background: #2e65b0;
+	float: right;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+h1 {
+	padding-top: 30px;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 700;
+	color: #203173;
+}
+
+.price {
+	padding-bottom: 30px;
+	margin-top: 20px;
+	text-align: center;
+	color: #4e4647;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+label {
+	display: block;
+	color: #93a8d0;
+}
+
+form {
+	padding: 20px 0;
+}
+
+input[type="text"] {
+	margin-top: 15px;
+	margin-bottom: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	border: 0;
+	font-size: 16px;
+	color: #d5dbec;
+	background: none;
+	border-bottom: 2px solid #5481be;
+	padding-bottom: 10px;
+	transition: border 0.3s;
+	outline: none;
+	width: 100%;
+}
+
+input[type="text"]:focus {
+	color: #FFF;
+	border-bottom: 2px solid #6ecd31;
+}
+
+input[type="submit"] {
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 2px;
+	width: 100%;
+	padding: 17px 0;
+	color: #9196b1;
+	text-transform: uppercase;
+	font-size: 18px;
+	border: 0;
+	margin-top: 10px;
+	background: #203173;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	transition: background 0.3s;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+}
+
+input[type="submit"]:hover {
+	cursor:pointer;
+	color: white;
+	background: #2b172c;
+}
+
+
+::-webkit-input-placeholder {
+   color: #d5dbec;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #d5dbec;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #d5dbec;  
+}
+
+:-ms-input-placeholder {  
+   color: #d5dbec;  
+}
+
+.col-3 {
+	float: left;
+	width: 75%;
+}
+.col-1 {
+	float: right;
+	width: 20%;
+}

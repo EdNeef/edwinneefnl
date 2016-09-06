@@ -122,8 +122,8 @@ a.btnheader {
 }
 
 /* line 73, ../sass/partials/_base.scss */
-.introfoto img {
-  max-width: 90%;
+.foto img {
+  max-width: 100%;
 }
 
 /* line 78, ../sass/partials/_base.scss */
@@ -440,7 +440,7 @@ section .introtekst {
   height: 1px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   /* line 340, ../sass/partials/_base.scss */
   .section2, .section3, .section4, .section5 {
     top: -60px;
