@@ -114,9 +114,6 @@ section {
 	section {
 		padding: 80px 0;
 	}
-	.foto {
-		display: none;
-	}
 }
 
 #skillset {
@@ -235,7 +232,21 @@ section {
 .work:hover div {
 	visibility: visible;
 	opacity: 0.9;
-} 
+}
+.work span {
+	display: block;
+	background: none;
+	color: $yellow;
+	font-size: 175%;
+	font-weight: 700;
+}
+
+.work .cats {
+	margin-top: 30px;
+	font-size: 82.5%;
+	font-weight: 300;
+	font-style: italic;
+}
 
 .skills {
 	margin-top: 40px;
@@ -249,9 +260,6 @@ section {
 	.skills {
 		.col-3 {
 			margin-top: 20px;
-		}
-		.row {
-			margin: 0;
 		}
 	}
 }
