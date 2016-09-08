@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	background: #eee;
+	font-size: 16px;
+}
+
+#calculator {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 30px;
+	width: 90%;
+	max-width: 500px;
+	margin: 150px auto;
+	background: #ffffff;
+	border-bottom: 4px solid #DFEBED;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+}
+
+.top span.clear {
+	box-sizing: border-box;
+	float: left;
+	background: #e6203c;
+	border-bottom: 4px solid #b2142b;
+	color: white;
+	width: 23%;
+}
+
+.top .screen {
+	box-sizing: border-box;
+	text-align: right;
+	color: #555;
+	height: 60px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 73%;
+	float: right;
+	padding: 20px 30px;
+	background: #DFEBED;
+	margin-right: 1%;
+	border-top: 4px solid #c9d9dc;
+}
+
+.keys {
+	clear: both;
+}
+
+.row {
+	clear: both;
+	padding-top: 10px;
+}
+
+.key {
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.08);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.08);
+	color: #DFEBED;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 23%;
+	margin: 0 1%;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	background: #497285;
+	border-bottom: 4px solid #2B4450;
+	padding: 20px;
+	transition: all 0.2s ease;
+}
+
+.key:hover, span.clear:hover {
+	cursor: pointer;
+	background: #252525;
+	border-bottom: 4px solid #111111;
+}
+
+.operator {
+	color: #FFF;
+	background: #F78536;
+	border-bottom: 4px solid #cc651d;
+}
+
+.clear {
+	clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+	#calculator {
+		padding: 10px;
+	}
+
+}
