@@ -1,28 +1,30 @@
 .turquoise{
   margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
-  background: #FFF;
-  border-bottom: #999 3px solid;
-  border-left: #999 1px solid;
-  border-right: #999 1px solid;
+  background: $white;
+  border-bottom: $yellow 3px solid;
+  border-left: $yellow 1px solid;
+  border-right: $yellow 1px solid;
   border-radius: 3px;
   text-align: center;
-  color: $midnight;
+  color: #252525;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 10px 20px;
   font-weight: 700;
   font-size: 82.5%;
-  opacity: 0.5; 
+  opacity: 0.8; 
   display: inline-block;
-  transition: visibility 0s, opacity 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .turquoise:hover{
   opacity: 1; 
-  border-bottom: $yellow 3px solid;
-  border-left: $yellow 1px solid;
-  border-right: $yellow 1px solid;
+  background: $yellow;
+  border-bottom: #191d34 3px solid;
+  border-left: #191d34 1px solid;
+  border-right: #191d34 1px solid;
+  color: #111;
 }
 
 

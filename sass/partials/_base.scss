@@ -99,7 +99,7 @@ hr {
 span {
 	background: $yellow;
 	padding: 3px;
-	color: #000;
+	color: #252525;
 }
 
 section {
@@ -124,7 +124,7 @@ section {
 	box-sizing: border-box;
 	margin: auto;
 	padding: 20px 0;
-	background: $yellow;
+	background: $midtwee;
 	font-size: 100%;
 	z-index: 1;
 	font-weight: 400;
@@ -136,10 +136,10 @@ section {
 		}
 	}
 	a {
-		color: $midtwee;
+		color: $white;
 		text-decoration: none;
 		&:hover {
-			color: $white;
+			color: $yellow;
 		}
 	}
 }
@@ -273,18 +273,11 @@ section {
 #contact {
 	background: $midnight;
 	color: $white;
+
 	.introtekst {
 		font-weight: 400;
 	}
-	span {
-		&:hover {
-			background: $midtwee;
 
-		}
-		&:hover a {
-			color: $yellow;
-		}
-	}
 }
 
 
@@ -354,3 +347,4 @@ a {
 p.paraspacing {
 	margin-top: 30px;
 }
+
