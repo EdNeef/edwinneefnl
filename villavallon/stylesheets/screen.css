@@ -214,6 +214,7 @@ ul.chalets li {
 
 /* line 129, ../sass/screen.scss */
 .footer {
+  text-align: center;
   font-size: 13px;
   margin: 70px 0 50px 0;
   padding: 20px 50px;
