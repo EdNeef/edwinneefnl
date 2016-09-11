@@ -222,19 +222,19 @@ ul.chalets li {
   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.17);
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.17);
 }
-/* line 136, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .footer a {
   color: #004a80;
   text-decoration: none;
 }
-/* line 139, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .footer a:hover {
   text-decoration: underline;
 }
 
 /* tablet */
 @media (max-width: 750px) {
-  /* line 148, ../sass/screen.scss */
+  /* line 149, ../sass/screen.scss */
   .icon {
     display: block;
     font-size: 24px;
@@ -246,18 +246,18 @@ ul.chalets li {
     z-index: 9;
     padding: 10px;
   }
-  /* line 158, ../sass/screen.scss */
+  /* line 159, ../sass/screen.scss */
   .icon a {
     text-decoration: none;
     color: #004a80;
   }
 
-  /* line 163, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   ul.mainnav li {
     display: none;
   }
 
-  /* line 166, ../sass/screen.scss */
+  /* line 167, ../sass/screen.scss */
   ul.mainnav li.icon {
     float: right;
     display: inline-block;
@@ -265,7 +265,7 @@ ul.chalets li {
     margin-right: 15px;
   }
 
-  /* line 172, ../sass/screen.scss */
+  /* line 173, ../sass/screen.scss */
   ul.mainnav.responsive {
     position: absolute;
     right: 0;
@@ -273,28 +273,34 @@ ul.chalets li {
     background: #004a80;
     z-index: 2;
   }
-  /* line 178, ../sass/screen.scss */
+  /* line 179, ../sass/screen.scss */
   ul.mainnav.responsive a {
     color: white;
   }
-  /* line 180, ../sass/screen.scss */
+  /* line 181, ../sass/screen.scss */
   ul.mainnav.responsive a:hover {
     color: #fcd21c;
   }
-  /* line 184, ../sass/screen.scss */
+  /* line 185, ../sass/screen.scss */
   ul.mainnav.responsive li {
     float: none;
     display: inline;
   }
-  /* line 187, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   ul.mainnav.responsive li a {
     padding: 0 50px;
     min-width: 200px;
     display: block;
     text-align: left;
   }
-  /* line 194, ../sass/screen.scss */
+  /* line 195, ../sass/screen.scss */
   ul.mainnav.responsive .icon a {
     color: white;
+  }
+}
+@media (max-width: 400px) {
+  /* line 203, ../sass/screen.scss */
+  .content {
+    padding: 0 0 50px 0;
   }
 }
