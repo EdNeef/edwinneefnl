@@ -40,7 +40,6 @@ h2 {
 }
 
 
-
 p {
 	margin-top: 30px;
 }
@@ -177,6 +176,20 @@ ul.chalets {
 	margin-bottom: 60px;
 }
 
+.gallery {
+
+	img {
+		max-width: 100%;
+	}
+	.row {
+		margin-top: 15px;
+	}
+}
+
+form {
+	margin-top: 40px;
+}
+
 
 /* tablet */
 @media (max-width: 750px) {
@@ -232,12 +245,14 @@ ul.chalets {
 	}
 
 	.content {
-		padding: 45px 20px 45px 0;
+		padding: 45px 0 45px 0;
 	}
 
 	.footer {
 		margin-left: 0;
 	}
+
+
 
 }
 
@@ -251,9 +266,12 @@ ul.chalets {
 	body {
 		background-color: #004a9f;
 	}
+	.side {
+		padding-right: 0;
+		margin: 0;
+	}
 
 	.boxed {
-		padding-right: 45px;
 		background: #e6e6e6;
 	}
 	.mainheader {
@@ -266,3 +284,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00004a9f', e
 		}
 	}
 }
+
+
+
+
